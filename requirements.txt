@@ -1,1 +1,7 @@
 openai
+dotenv
+tqdm
+inquirer
+gTTS
+python-vlc
+playsound
