@@ -1,3 +1,5 @@
 .env
 .ipynb_checkpoints
-speech\private-nb.ipynb.
+speech
+private-nb.ipynb
+.secrets
