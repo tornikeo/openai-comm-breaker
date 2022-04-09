@@ -81,7 +81,8 @@ def main():
     questions = [
       inquirer.List('choice',
                     message="Select one generated response",
-                    choices=[get_at_most(text, 300) for text in texts],
+                    # choices=[get_at_most(text, 300) for text in texts],
+                    choices=[text for text in texts],
                 ),
     ]
     choice = inquirer.prompt(questions)['choice']
